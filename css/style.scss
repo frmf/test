@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Tajawal", sans-serif;
+}
+
+main {
+  width: 700px;
+  height: 700px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/1.png);
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .tableau {
+    width: 85%;
+    height: 95%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    .titre {
+      height: 7%;
+      h1 {
+        text-align: center;
+        color: white;
+        font-size: 23px;
+      }
+    }
+    .info {
+      height: 7%;
+      .place,
+      .point,
+      .nombreMatch,
+      .plusMoins {
+        width: 10%;
+        padding: 2px;
+        margin: 2px;
+        border-radius: 6px;
+        background-color: #02161f;
+        h2 {
+          text-align: center;
+          color: white;
+          font-size: 18px;
+        }
+      }
+      .classementGeneral {
+        width: 60%;
+        padding: 2px;
+        margin: 2px;
+        border-radius: 6px;
+        background-color: #02161f;
+        h2 {
+          text-align: center;
+          color: white;
+          font-size: 18px;
+        }
+      }
+    }
+    .classement {
+      height: 86%;
+      .equipe {
+        .place,
+        .point,
+        .nombreMatch,
+        .plusMoins {
+          width: 10%;
+          padding: 2px;
+          margin: 2px;
+          border-radius: 6px;
+          background-color: #02161f;
+          h3 {
+            text-align: center;
+            color: white;
+            font-size: 20px;
+          }
+        }
+        .classementGeneral {
+          width: 60%;
+          padding: 2px;
+          margin: 2px;
+          border-radius: 6px;
+          background-color: #02161f;
+          h3 {
+            margin-right: 5px;
+            color: white;
+            font-size: 20px;
+          }
+        }
+      }
+      .equipe:first-child {
+        .place {
+          background-color: green;
+        }
+      }
+      .equipe:nth-child(13),
+      .equipe:nth-child(14),
+      .equipe:nth-child(15),
+      .equipe:nth-child(16) {
+        .place {
+          background-color: red;
+        }
+      }
+    }
+    .equipe {
+      width: 100%;
+    }
+    .titre,
+    .info,
+    .classement,
+    .equipe {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .classement {
+      flex-direction: column;
+    }
+  }
+}

@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Tajawal", sans-serif;
+}
+
+main {
+  width: 700px;
+  height: 700px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../img/1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/1.png);
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .tableau {
+  width: 85%;
+  height: 95%;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+main .tableau .titre {
+  height: 7%;
+}
+
+main .tableau .titre h1 {
+  text-align: center;
+  color: white;
+  font-size: 23px;
+}
+
+main .tableau .info {
+  height: 7%;
+}
+
+main .tableau .info .place,
+main .tableau .info .point,
+main .tableau .info .nombreMatch,
+main .tableau .info .plusMoins {
+  width: 10%;
+  padding: 2px;
+  margin: 2px;
+  border-radius: 6px;
+  background-color: #02161f;
+}
+
+main .tableau .info .place h2,
+main .tableau .info .point h2,
+main .tableau .info .nombreMatch h2,
+main .tableau .info .plusMoins h2 {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+main .tableau .info .classementGeneral {
+  width: 60%;
+  padding: 2px;
+  margin: 2px;
+  border-radius: 6px;
+  background-color: #02161f;
+}
+
+main .tableau .info .classementGeneral h2 {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+main .tableau .classement {
+  height: 86%;
+}
+
+main .tableau .classement .equipe .place,
+main .tableau .classement .equipe .point,
+main .tableau .classement .equipe .nombreMatch,
+main .tableau .classement .equipe .plusMoins {
+  width: 10%;
+  padding: 2px;
+  margin: 2px;
+  border-radius: 6px;
+  background-color: #02161f;
+}
+
+main .tableau .classement .equipe .place h3,
+main .tableau .classement .equipe .point h3,
+main .tableau .classement .equipe .nombreMatch h3,
+main .tableau .classement .equipe .plusMoins h3 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+main .tableau .classement .equipe .classementGeneral {
+  width: 60%;
+  padding: 2px;
+  margin: 2px;
+  border-radius: 6px;
+  background-color: #02161f;
+}
+
+main .tableau .classement .equipe .classementGeneral h3 {
+  margin-right: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+main .tableau .classement .equipe:first-child .place {
+  background-color: green;
+}
+
+main .tableau .classement .equipe:nth-child(13) .place,
+main .tableau .classement .equipe:nth-child(14) .place,
+main .tableau .classement .equipe:nth-child(15) .place,
+main .tableau .classement .equipe:nth-child(16) .place {
+  background-color: red;
+}
+
+main .tableau .equipe {
+  width: 100%;
+}
+
+main .tableau .titre,
+main .tableau .info,
+main .tableau .classement,
+main .tableau .equipe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .tableau .classement {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=style.css.map */
