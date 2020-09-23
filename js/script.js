@@ -3,26 +3,26 @@ let information = [
   //po,gm,+/-,psuedo,arabicName
 
   {
-    point: 41,
-    matches: 16,
-    plusMoins: 26,
+    point: 44,
+    matches: 17,
+    plusMoins: 27,
     arabicName: "ريال مولاي عبد الله",
   },
   {
-    point: 38,
-    matches: 16,
-    plusMoins: 28,
+    point: 41,
+    matches: 17,
+    plusMoins: 30,
     arabicName: "النادي الإسماعيلي",
   },
   {
     point: 28,
-    matches: 16,
-    plusMoins: 12,
+    matches: 17,
+    plusMoins: 10,
     arabicName: "الشبيبة السحيمية",
   },
   {
-    point: 27,
-    matches: 16,
+    point: 23,
+    matches: 18,
     plusMoins: 8,
     arabicName: "شباب دار السي عيسى",
   },
@@ -57,14 +57,14 @@ let information = [
     arabicName: "إتحاد أولاد الغضبان",
   },
   {
-    point: 19,
+    point: 29,
     matches: 16,
     plusMoins: "01-",
     arabicName: "إتحاد أزمور",
   },
   {
     point: 18,
-    matches: 16,
+    matches: 17,
     plusMoins: "05-",
     arabicName: "نهضة أولاد فرج",
   },
